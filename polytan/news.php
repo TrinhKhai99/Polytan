@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>News</title>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+    <link rel="stylesheet" href="lib/bootstrap-3.1.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/bootstrap-3.1.1-dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="style.css  ">
+</head>
+<body>
+<div class="container-fluid wp-news">
+    <nav class="navbar navbar-inverse header">
+        <div class="navbar-header navbar-left ">
+            <button type="button" class="navbar-toggle header-btn" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="polytan.php"><img src="img/logo-polytan-1.svg" style="transform: scale(2.4);" class="navbar-brand header-img"></a>
+        </div>
+        <div class="collapse navbar-collapse header-list-item" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right ">
+                <li><a href="product.php">product</a></li>
+                <li><a href="sports.php">sports</a></li>
+                <li><a href="extras.php">extras</a></li>
+                <li><a href="services.php">service</a></li>
+                <li><a href="news.php">new</a></li>
+                <li><a href="why.php">why polytan</a></li>
+                <li><a href="search.php"><i class="fas fa-search"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+    <h2 style="margin: 130px 0 30px 85px">BLOG</h2>
+    <div class="row blog">
+        <div class=" crs-bot">
+            <img src="https://744419.smushcdn.com/1303523/wp-content/uploads/elementor/thumbs/Bandensysteme-EN-1-ohq92q7aug3z1mwrwtwtnyrayrkkb6eg2rbuyqug5i.jpg?lossy=1&strip=1&webp=1" width="384px" height="200px" alt="">
+            <div class="content">
+                <span>November 4, 2019</span>
+                <h3>polytan presented green technology at fsb 2019</h3>
+                <p>High-tech sport surface made from sus-tainable raw materials. How sustainable can modern high-tech sport surfaces made from synthetic material get? Polytan gave the answer to...</p>
+                <a href="">Read More</a>
+            </div>
+        </div>
+        <div class=" crs-bot">
+            <img src="https://744419.smushcdn.com/1303523/wp-content/uploads/elementor/thumbs/BigStadiumHockey-EN-ohdqj92bbivc0olr9dfk6e6d9taycr7eft0sb1mhja.jpg?lossy=1&strip=1&webp=1" width="384px" height="200px" alt="">
+            <div class="content">
+                <span>November 4, 2019</span>
+                <h3>BIG STADIUM HOCKEY – FIELD HOCKEY’S COMING TO THE MAJOR STADIUMS!</h3>
+                <p>Goosebumps in the competition arena - anybody who's ever been in a stadium and seen their favourite team come back from almost certain defeat has...</p>
+                <a href="">Read More</a>
+            </div>
+        </div>
+        <div class=" crs-bot">
+            <img src="https://744419.smushcdn.com/1303523/wp-content/uploads/elementor/thumbs/Socca-Crete-EN-oggse8uwbmeuu87454mhtcdn4j4jp267xg8940txl2.jpg?lossy=1&strip=1&webp=1" width="384px" height="200px" alt="">
+            <div class="content">
+                <span>November 4, 2019</span>
+                <h3>ARE YOU READY FOR IT – SOCCA WORLD CUP FEATURING WORLD CHAMPIONS GERMANY</h3>
+                <p>An average temperature of 25 °C, cloudless skies, beautiful beaches and blue sea. What sounds like a perfect day on holiday is in fact a...</p>
+                <a href="">Read More</a>
+            </div>
+        </div>
+    </div>
+    <h2>LATEST NEWS</h2>
+    <div class="blog">
+        <div class="crs-bot">
+            <img src="https://744419.smushcdn.com/1303523/wp-content/uploads/elementor/thumbs/Polytan_GT_Tokyo_1Year_WebsiteBanner_Laykold_2000x1000_FA-oggup81zn403qzo1lzuuxekiz25175l6o5hc9dssau.jpg?lossy=1&strip=1&webp=1" width="384px" height="200px" alt="">
+            <div class="content">
+                <span>November 4, 2019</span>
+                <h3>FOR TOKYO. FOR THE PLANET</h3>
+                <p>It is one year to go to the 2020 Tokyo Olympic Games and the hockey venues are underway and on track. The competition matches will...
+                </p>
+                <a href="">Read More</a>
+            </div>
+        </div>
+        <div class="crs-bot">
+            <img src="https://744419.smushcdn.com/1303523/wp-content/uploads/elementor/thumbs/kleinspielfeld_sinzheim_028_k-o68kpjti7f5r9gn5e9ucnsbduibv93lypi5pamzneu.jpg?lossy=1&strip=1&webp=1" width="384px" height="200px" alt="">
+            <div class="content">
+                <span>November 4, 2019</span>
+                <h3>MINI COURT GETS BREAK-TIME MOVING</h3>
+                <p>Lothar-von-Kübel secondary school in Sinzheim with new PolyPlay Arena Mini court gets break-time moving Football, basketball and table tennis – since the playground of the...
+                </p>
+                <a href="">Read More</a>
+            </div>
+        </div>
+        <div class="crs-bot">
+            <img src="https://744419.smushcdn.com/1303523/wp-content/uploads/elementor/thumbs/AOK-Traditionsmasters_web_3-o68lfdfvykic7t4tlxodnrq9cl1vpr4hxbcwxapah2.jpg?lossy=1&strip=1&webp=1" width="384px" height="200px" alt="">
+            <div class="content">
+                <span>November 4, 2019</span>
+                <h3>LEGENDS ON SHOW AT THE AOK TRADITIONSMASTERS</h3>
+                <p>Each year, the AOK Traditionsmasters tournament brings football “oldies” together in Berlin for a very special “jamboree”. This year’s competition saw the two strongest teams,...</p>
+                <a href="">Read More</a>
+            </div>
+        </div>
+    </div>
+    <h2>EVENTS</h2>
+    <div class="blog">
+        <div class="crs-bot">
+            <img src="https://744419.smushcdn.com/1303523/wp-content/uploads/elementor/thumbs/Website-Banner-1_News_Detail-o68lhqz5rv81akrxt4nq6tr9zc04enq6lt5gkkxbyo.jpg?lossy=1&strip=1&webp=1" width="384px" height="200px" alt="">
+            <div class="content">
+                <span>November 4, 2019</span>
+                <h3>2019 – FIRST YEAR OF THE FIH PRO LEAGUE</h3>
+                <p>THE FIH PRO LEAGUE IS HERE! Taking the place of the Champions Trophy, World League Semi Finals, World League Semi Finals and World League Final...
+                </p>
+                <a href="">Read More</a>
+            </div>
+        </div>
+        <div class="crs-bot">
+            <img src="https://744419.smushcdn.com/1303523/wp-content/uploads/elementor/thumbs/90756B-MHWC-Online_Elements-EXPORT3-o68uz5ws5ilebouo6phduo6llp7o8v4c7nmjuqpfww.jpg?lossy=1&strip=1&webp=1" width="384px" height="200px" alt="">
+            <div class="content">
+                <span>November 4, 2019</span>
+                <h3>MEN’S HOCKEY WORLD CUP</h3>
+                <p>The first swing for the Men’s World Cup starts from Wednesday 28th November – Sunday 16th December at the Kalinga Stadium, Bhubaneswar on Poligras Platinum...
+                </p>
+                <a href="">Read More</a>
+            </div>
+        </div>
+        <div class="crs-bot">
+            <img src="https://744419.smushcdn.com/1303523/wp-content/uploads/elementor/thumbs/Socca_Cup_web-o68uxuwunst276qxt561e01jwfnbjzxrd709uwn4k0.jpg?lossy=1&strip=1&webp=1" width="384px" height="200px" alt="">
+            <div class="content">
+                <span>November 4, 2019</span>
+                <h3>SOCCA WORLD CUP LISBON 2018</h3>
+                <p>The 2018 Socca World Cup will take place in one of Europe’s largest and most prestigious squares, Lisbon’s Praça do Comércio. 32 teams will compete...
+                </p>
+                <a href="">Read More</a>
+            </div>
+        </div>
+    </div>
+    <h2>MULTIMEDIA</h2>
+    <div class="blog end">
+        <div class="crs-bot">
+            <img src="https://744419.smushcdn.com/1303523/wp-content/uploads/elementor/thumbs/SmarTracks_Thumbnail-oc0gna85od79tajjpasss5f4ogwcah7sr9vi0sp7pi.jpg?lossy=1&strip=1&webp=1" width="384px" height="200px" alt="">
+            <div class="content">
+                <span>November 4, 2019</span>
+                <h3>POLYTAN SMARTRACKS WITH TATJANA PINTO AND PATRICK SCHNEIDER</h3>
+                <p>PRECISE PERFORMANCE DIAGNOSTICS FROM RECREATIONAL ATHLETES TO PROFESSIONALS - THE INTELLIGENT TRACK SmarTracks by Polytan offers optimal training facilities for all performance classes, from school...
+                </p>
+                <a href="">Read More</a>
+            </div>
+        </div>
+        <div class="crs-bot">
+            <img src="https://744419.smushcdn.com/1303523/wp-content/uploads/elementor/thumbs/maxresdefault-o68qibr06oyhzhduain8h3p3rhaswwfoquk6n5fpdy.jpg?lossy=1&strip=1&webp=1" width="384px" height="200px" alt="">
+            <div class="content">
+                <span>November 4, 2019</span>
+                <h3>TRACK AND FIELD MOMENTS WITH TATJANA PINTO</h3>
+                <p>This is the result when Polytan meets Tatjana Pinto to take shots and video sequences. Always a pleasure
+                </p>
+                <a href="">Read More</a>
+            </div>
+        </div>
+        <div class="crs-bot">
+            <img src="https://744419.smushcdn.com/1303523/wp-content/uploads/elementor/thumbs/maxresdefault-1-o68qfugc5fk9cizjry1oe88bbvixlnl6qkl21v43t2.jpg?lossy=1&strip=1&webp=1" width="384px" height="200px" alt="">
+            <div class="content">
+                <span>November 4, 2019</span>
+                <h3>TRACK AND FIELD MOMENTS WITH PATRICK SCHNEIDER</h3>
+                <p>We are looking forward to our new partnership with Patrick Schneider. Since 2015 he starts for the LAC Quelle Fürth and runs mainly in the...</p>
+                <a href="">Read More</a>
+            </div>
+        </div>
+    </div>
+    <div class="product-icon">
+        <ul>
+            <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href=""><i class="fab fa-instagram"></i></a></li>
+            <li><a href=""><i class="fab fa-youtube"></i></a></li>
+            <li><a href=""><i class="fab fa-invision"></i></a></li>
+            <li><a href=""><i class="fab fa-github-alt"></i></a></li>
+        </ul>
+    </div>
+    <div class="footer">
+        <div class="about-us">
+            <h3>ABOUT US</h3>
+            <ul>
+                <li><a href="">About Polytan</a></li>
+                <li><a href="">Career</a></li>
+                <li><a href="">Press room</a></li>
+                <li><a href="">Newsletter</a></li>
+            </ul>
+        </div>
+        <div class="visitus">
+            <h3>VISIT US</h3>
+            <ul>
+                <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                <li><a href=""><i class="fab fa-invision"></i></a></li>
+                <li><a href=""><i class="fab fa-github-alt"></i></a></li>
+            </ul>
+        </div>
+        <div class="POLYTANGMBH">
+            <h3>POLYTAN GMBH</h3>
+            <ul>
+                <li><a href="">Legal notice</a></li>
+                <li><a href="">Data Protection Declaration</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Media Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>

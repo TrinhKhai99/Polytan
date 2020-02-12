@@ -1,0 +1,616 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.wp {
+    width: 100%;
+    min-height: 100vh;
+    padding: 0; !important;
+}
+.header {
+    width: 100%;
+    min-height: 65px;
+    background: white;
+    border: 1px solid #eaeaea;
+}
+.header-img {
+    margin: 10px 0 0 120px;
+}
+.header-list-item {
+    margin-right: 60px;
+    padding: 10px 0 0 0 ;
+}
+.header-list-item ul li {
+    font-size: 17px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.header-list-item ul li:hover {
+    background: #878786;
+}
+.header-btn {
+    background: black;
+    color: white;
+}
+.slider {
+    width: 100%;
+    position: relative;
+}
+.crs {
+    position: relative;
+}
+.img-header-index {
+    margin-top: 90px;
+    width: 100%;
+    min-height: 500px;
+    background-image: url("img/history3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.mark-header-index {
+    padding: 50px 25px;
+    text-align: left;
+    width: 50%;
+    height: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(255, 255, 255, .6);
+    color: black;
+}
+.mark-header-index p {
+    margin: 30px 0 40px;
+}
+.mark-header-index a {
+    padding: 18px 15px;
+    background-color: white;
+    color: black;
+}
+.mark-header-index a:hover {
+    color: white;
+    font-weight: bold;
+    background-color: #4d762d;
+    text-decoration: none;
+}
+.total-product {
+    background: #878786;
+    width: 100%;
+    min-height: 1090px;
+    padding: 60px 0 0;
+}
+.product {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 70px;
+}
+.product-title {
+    margin: 0 0 80px 0;
+    text-align: center;
+    color: white;
+}
+.total-product .showMore {
+    padding: 12px 20px;
+    color: #878786;
+    margin: 40px 0 60px 600px;
+}
+.total-product .showMore:hover {
+    background: #e5e5e5;
+    color: black;
+}
+.product .product-list-item {
+    width: 300px;
+    height: 269px;
+    padding: 30px 40px;
+    text-align: center;
+}
+.product-content {
+    background: #a61f07;
+}
+.product .product-list-item-green {
+    width: 300px;
+    height: 269px;
+    padding: 30px 40px;
+    background: #4d762d;
+    text-align: center;
+}
+.product .product-list-item-green h2 {
+    font-size: 23px;
+    margin-bottom: 30px;
+    color: white;
+}
+.product .product-list-item-green a {
+    padding: 12px 20px;
+    color: #878786;
+    background: white;
+    text-decoration: none;
+}
+.product .product-list-item-green a:hover {
+    background: #878786;
+    color: white;
+    text-decoration: none;
+}
+.product .product-list-item h2 {
+    font-size: 23px;
+    margin-bottom: 40px;
+    color: white;
+}
+.product .product-list-item a {
+    padding: 12px 20px;
+    color: #878786;
+    background: white;
+    text-decoration: none;
+}
+.product .product-list-item a:hover {
+    background: #878786;
+    color: white;
+    text-decoration: none;
+}
+.news {
+    width: 100%;
+    overflow: hidden;
+}
+.news .news-title {
+    text-align: center;
+    margin: 60px 0 80px 0;
+    color: #878786;
+}
+.crs-main {
+    padding: 20px 85px;
+}
+.crs-bot {
+    width: 385px;
+    border: 1px solid #e5e5e5;
+    margin-right: 20px;
+    padding: 0 0 30px 0;
+    min-height: 500px;
+}
+.content {
+    margin-left: 20px;
+    opacity: 0.8;
+}
+.crs-bot img {
+    margin-bottom: 30px;
+}
+.crs-bot span {
+
+}
+.crs-bot h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.crs-bot p {
+    margin-bottom: 20px;
+    padding: 0 10px 0 0;
+}
+.crs-bot a {
+    text-transform: uppercase;
+    color: #a4a4a4;
+    font-size: 16px;
+}
+.crs-bot .content a:hover {
+    color: black;
+    text-decoration: none;
+}
+.sub-carousel {
+    width: 90%;
+    min-height: 202px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 75%);
+}
+.sub-crs-item {
+    margin-right: 25px;
+    position: relative;
+}
+.sub-crs-item:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.6s ease-in-out;
+
+}
+.sub-crs-item:hover:before {
+    background: rgba(0,0,0, 0.6);
+}
+.mark {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    z-index: -1;
+}
+.mark a {
+    color: white;
+}
+.sub-crs-item:hover > .mark {
+    z-index: 2;
+}
+
+ /*start employee*/
+.employee {
+    background-image: url("img/Estadio_La_Florida_4_1900x800.jpg"); !important;
+    background-size: cover; !important;
+    background-position: center; !important;
+    background-repeat: no-repeat; !important;
+}
+.employee-content {
+    background: #e5e5e5; !important;
+    padding: 68px 0 0 20px;
+}
+.product .employee-content h2 {
+    color: #a1a1a0; !important;
+    text-align: left;
+}
+.employee-content p {
+    color: #757575;
+    text-align: left;
+}
+    /*start footer*/
+.footer {
+    width: 100%;
+    min-height: 270px;
+    display: flex;
+    justify-content: space-around;
+    background: #e5e5e5;
+    padding: 40px 0 0 20px;
+}
+.footer ul {
+    list-style-type: none;
+}
+.footer ul li {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 15px;
+}
+.footer h3 {
+    color: #a1a1a0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.footer ul li a {
+    color: #9f9f9f;
+}
+.footer ul li a:hover {
+    color: #757575;
+    text-decoration: none;
+}
+.footer .visitus ul li {
+    display: inline;
+}
+.footer .visitus ul li a {
+    font-size: 25px;
+    padding: 10px 15px;
+    margin-right: 5px;
+    border: 1px solid #757575;
+    background: #757575;
+    color: white;
+    border-radius: 4px;
+}
+.footer .visitus ul li a:hover {
+    opacity: 0.8;
+}
+    /*end-index*/
+    /*start-product*/
+.wp-product {
+    width: 100%;
+
+}
+.header-product {
+    width: 100%;
+    min-height: 250px;
+}
+.header-product img {
+    width: 100%;
+    height: 250px;
+}
+.content-product {
+    padding: 65px 20px 0 85px;
+    display: flex;
+    justify-content: space-around;
+}
+.left-product {
+    width: 48%;
+    padding: 0 20px 0 0;
+    display: inline-block;
+}
+.crs-product {
+    margin-top: 25px;
+}
+.box-img {
+    width: 585px;
+    overflow: hidden;
+    margin-top: 40px;
+}
+.right-product {
+    width: 48%;
+    display: inline-block;
+    padding: 0 20px 0 0;
+    min-height: 200px;
+    position: relative;
+}
+.right-product h3 {
+    margin-top: 60px;
+}
+#go-back {
+    float: right;
+    border: 1px solid black;
+    padding: 15px 35px;
+    margin-bottom: 30px;
+}
+.content-right-product {
+    width: 100%;
+}
+.box-button {
+    margin-top: 20px;
+    width: 100%;
+}
+.content-right-product .box-button button {
+    padding: 15px 25px;
+    background: none;
+    border: none;
+    font-size: 18px;
+}
+.box-content {
+    border: 1px solid;
+    padding: 30px 0 0 15px;
+}
+.box-product-item {
+    padding: 65px 85px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.box-product-item a {
+    color: black;
+}
+.box-product-item img {
+    margin-bottom: 15px;
+}
+.product-icon {
+    width: 36%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+.product-icon ul li {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 15px;
+    display: inline-block;
+}
+.product-icon ul li a{
+    font-size: 25px;
+    padding: 10px 15px;
+    margin-right: 5px;
+    border: 1px solid #757575;
+    background: #757575;
+    color: white;
+}
+ /*end product*/
+    /*start sports*/
+.wp-sports {
+    width: 100%;
+    min-height: 100vh;
+}
+.content-sports {
+    margin-top: 100px;
+    padding: 0 80px;
+}
+.content-sports-list-item{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.content-sports-item {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 5px;
+    margin: 40px 0;
+}
+.content-sports-item img {
+    margin: 20px 0;
+    border: 1px solid #ecded2;
+}
+.content-sports-item span {
+    color: #9a9a9a;
+}
+    /*start extras*/
+.wp-extras {
+    width: 100%;
+    min-height: 100vh;
+}
+.header-extras {
+    margin-top: 60px;
+}
+.body-extras {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 50px 0 80px;
+    margin: 70px 0 30px 0;
+}
+.body-extras-content {
+    width: 60%;
+
+}
+.body-extras-content h2 {
+    margin: 0 0 70px 0;
+    color: #878786;
+}
+.strong {
+    color: #ababab;
+    font-size: 18px;
+    font-weight: 500;
+}
+.body-extras-content p {
+    margin-top: 20px;
+    color: #666666;
+    font-size: 16px;
+}
+.body-extras-img {
+    width: 35%;
+    margin-top: 85px;
+}
+.extras-product {
+    width: 100%;
+    display: flex;
+    padding: 20px 50px 0 80px;
+    justify-content: space-around;
+    margin: 10px 0 70px 0;
+}
+    /*end extras*/
+    /*start service*/
+.wp-service {
+    width: 100%;
+    min-height: 100vh;
+}
+.service-title {
+    margin: 70px 0 50px 85px;
+    color: #878786;
+}
+.body-service {
+    margin: 0 0 70px 0;
+    width: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 50px 0 80px;
+}
+.body-service-content {
+    padding: 10px 10px 10px 5px;
+}
+.body-service-content h3 {
+    color: #a9a9a8;
+}
+.body-service-content p {
+    margin: 20px 0;
+    color: #828282;
+}
+.body-service-content ul {
+    list-style-type: square;
+    padding: 0 0 0 20px;
+}
+.body-service-content ul li {
+    color: #828282;
+}
+.body-service-img {
+    width: 40%;
+    min-height: 100vh;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+    /*end service*/
+    /*start news*/
+.wp-news {
+    width: 100%;
+    min-height: 100vh;
+}
+.blog {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 50px 0 80px
+}
+.wp-news h2 {
+    margin: 70px 0 30px 85px;
+}
+.end {
+    margin-bottom: 60px;
+}
+    /*end news*/
+    /*start why*/
+.wp-why {
+    width: 100%;
+    min-height: 100vh;
+}
+.img-header-why {
+    margin-top: 60px;
+}
+.body-why {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 60px 0 80px;
+    margin: 70px 0 0 0;
+}
+.img-body-why {
+    width: 45%;
+    padding: 5px;
+}
+.body-why-content {
+    width: 45%;
+    padding: 5px;
+    margin-bottom: 70px;
+}
+.body-why-content h2 {
+    color: #878786;
+}
+.body-why-content h3 {
+    margin: 30px 0 20px;
+    font-size: 17px;
+    color: #9e9e9d;
+}
+.body-why-content p {
+    color: #4a4a4a;
+    font-size: 16px;
+}
+.product-why {
+    width: 100%;
+    padding: 0 60px 0 80px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+.product-why h3 {
+    color: #8e8e8d;
+    font-size: 16px;
+    margin-top: 12px;
+}
+     /*end why*/
+    /*start sports*/
+.content-sport {
+    margin: 130px 0 70px ;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 60px 0 80px;
+}
+.content-sport a {
+    font-size: 18px;
+    margin: 20px 0 40px;
+    color: #90908f;
+    display: block;
+    text-decoration: none;
+}
+.content-sport a:hover {
+    color: #878786;
+}
+.item-img {
+    filter: grayscale(1);
+}
+.item-img:hover {
+    filter: grayscale(0);
+    transition: 0.8s;
+}
+.administration-body {
+    padding: 0 30px;
+}
